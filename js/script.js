@@ -2746,7 +2746,7 @@ let script = {
 		"h Or perhaps it's not that shocking. These kinds of questions tend to be quite divisive.",
 		"h So then, it seems that the only ones who matched are the Red Team. As expected of the actually married couple, this one was right up their alley.",
 		function () {
-			storage.score.black += 3;
+			storage.score.red += 3;
 			return true;
 		},
 		"jump R0"
